@@ -1,12 +1,15 @@
+def calculo_desconto():
+  produto = "Camiseta"
+  preco_original = 50.00
+  porcentagem_desconto = 20
+  
+  valor_desconto = (preco_original * porcentagem_desconto) / 100
+  preco_final = preco_original - valor_desconto
+  
+  print(f"Produto: {produto}")
+  print(f"Preço original: R$ {preco_original:.2f}")
+  print(f"Desconto: {porcentagem_desconto}%")
+  print(f"Valor do desconto: R$ {valor_desconto:.2f}")
+  print(f"Preço final: R$ {preco_final:.2f}")
 
-
-def soma_numeros():
-  numero1 = 12
-  numero2 = 14
-  soma = numero1 + numero2
-
-  print(f"Número 1: {numero1}")
-  print(f"Número 2: {numero2}")
-  print(f"Soma: {soma}")
-
-soma_numeros()
+calculo_desconto()
