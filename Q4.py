@@ -1,14 +1,11 @@
+def consumo_combustivel():
+  distancia = 300
+  combustivel = 25
+  
+  consumo_medio = distancia / combustivel
+  
+  print(f"Distância percorrida: {distancia} km")
+  print(f"Combustível gasto: {combustivel} litros")
+  print(f"Consumo médio: {consumo_medio:.2f} km/l")
 
-def calcula_preco_total():
-  nome_produto = "Cadeira Infantil"
-  preco_unitario = 12.40
-  quantidade = 3
-
-  preco_total = preco_unitario * quantidade
-
-  print(f"Produto: {nome_produto}")
-  print(f"Preço Unitário: R$ {preco_unitario:.2f}")
-  print(f"Quantidade: {quantidade}")
-  print(f"Preço Total: R$ {preco_total:.2f}")
-
-calcula_preco_total()
+consumo_combustivel()
